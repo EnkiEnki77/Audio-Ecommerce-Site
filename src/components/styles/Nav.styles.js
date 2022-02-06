@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-left: ${props => props.footer ? '32%' : null};
+  padding-left: ${props => props.footer ? '33.5%' : null};
 `;
 
 export const NavLink = styled(Link)`

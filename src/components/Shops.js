@@ -6,6 +6,8 @@ const Shops = () => {
     return(
         <ShopsContainer>
             <Shop/>
+            <Shop/>
+            <Shop/>
         </ShopsContainer>
     )
 };

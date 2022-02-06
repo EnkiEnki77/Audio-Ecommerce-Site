@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { vars } from "../../Css Vars/vars";
 
 export const HeaderContainer = styled.header`
   width: 100%;
@@ -21,10 +22,13 @@ export const LogoutAndCart = styled.div`
   display: flex;
    gap: 25%;
    width: 12%;
+   margin-right: 8%;
 `;
 
 export const Logout = styled(Link)`
   display: ${props => props.display};
+  text-decoration: none;
+  color: ${vars.color3};
 `;
 
 export const Cart = styled.img`

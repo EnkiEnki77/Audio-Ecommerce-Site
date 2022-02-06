@@ -6,7 +6,7 @@ export const FooterCont  = styled.footer`
   width: 100%;
   background-color: #000000;
   display: flex;
-  padding: 76px 11% 0 11%;
+  padding: 76px 10% 0 10%;
   /* position: absolute;
   bottom: 0; */
 `;
@@ -59,7 +59,7 @@ export const SocialLinks  = styled.div`
   padding-right: 5%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 20%;
+  margin-top: 118px;
 `;
 
 export const SocialLink  = styled.img`

@@ -1,7 +1,10 @@
 import React from 'react';
+import { Butt } from './styles/Button.styles';
 
 const Button = (props) => {
-  return <button type = {props.type}><a href={props.route}>{props.text}</a></button>;
+    return(
+        <Butt type = 'submit'>{props.text}</Butt>
+    )
 };
 
 export default Button;

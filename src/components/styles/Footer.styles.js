@@ -2,25 +2,17 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterCont  = styled.footer`
-  height: 365px;
+  min-height: 365px;
   width: 100%;
   background-color: #000000;
   display: flex;
-  padding: 0;
-  justify-self: flex-end;
+  padding: 76px 11% 0 11%;
   /* position: absolute;
   bottom: 0; */
 `;
 
 export const FooterInfo  = styled.div`
   flex-basis: 50%;
-  height: 100%;
-  color: #f9f9f9;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  gap: 4%;
-  padding-left: 150px;
 `;
 
 export const FooterLogo  = styled.img`
@@ -29,9 +21,20 @@ export const FooterLogo  = styled.img`
 `;
 
 export const FooterDescript  = styled.p`
-  font-size: 15px;
-  color: #ffffff;
-  opacity: 0.5;
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+width: 540px;
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+margin-top: 45px;
+margin-bottom: 61px;
 `;
 
 export const Copywrite  = styled.p`
@@ -41,26 +44,9 @@ export const Copywrite  = styled.p`
 `;
 
 export const FooterLinks  = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 25%;
-  flex-basis: 50%;
-  padding-right: 150px;
-`;
-
-export const FooterNavLinks  = styled.div`
-  /* width: 100%; */
-  display: flex;
-  padding-right: 20%;
-
-  a{
-    text-decoration: none;
-  color: #f9f9f9;
-  padding-right: 14%;
-  
-  }
+ flex-basis: 50%;
+ display: flex;
+ flex-flow: column nowrap;
 `;
 
 export const FooterNavLink  = styled(Link)`
@@ -68,10 +54,12 @@ export const FooterNavLink  = styled(Link)`
 `;
 
 export const SocialLinks  = styled.div`
-  margin-bottom: 40px;
   display: flex;
-  gap: 15%;
+  gap: 4%;
   padding-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20%;
 `;
 
 export const SocialLink  = styled.img`

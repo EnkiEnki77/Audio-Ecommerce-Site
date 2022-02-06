@@ -1,11 +1,12 @@
 import React from 'react';
+import { FormCont } from './styles/Form.styles';
 
 const Form = (props) => {
-  return(<form action={props.action} method='POST' encType='multipart/form-data' >
-                {props.children}
-        </form>)
-      
-  
+    return(
+        <FormCont action = {props.action} method = {props.method} encType = 'multipart/form-data'>
+            {props.children}
+        </FormCont>
+    )
 };
 
 export default Form;

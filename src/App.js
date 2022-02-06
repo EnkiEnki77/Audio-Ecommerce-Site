@@ -10,6 +10,8 @@ import Register from './pages/Register'
 function App() {
   return (
    <Router>
+
+<GlobalStyles/>
      <Routes>
        <Route path='/' element={<Login/>} />
        <Route path='register' element={<Register/>} />
@@ -18,7 +20,7 @@ function App() {
        <Route path='category/speakers' element={<Speakers/>}/>
        <Route path='category/earphones' element={<Earphones/>}/>
      </Routes>
-     <GlobalStyles/>
+     
    </Router>
   
   );
